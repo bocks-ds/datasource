@@ -12,7 +12,7 @@ databaseInstance.initialize().then(response => {
     const server = new ApolloServer({typeDefs, resolvers})
     env.logger.info("Apollo Server ready to launch.")
     env.logger.info("Launching GraphQL via Apollo Server...")
-    server.listen().then(({ url }) => {
+    server.listen({ port: env.port }).then(({ url }) => {
         env.logger.info(`🚀  Apollo Server ready at ${url}.`);
     });
 }).catch(error =>{env.logger.info(error)})
