@@ -1,8 +1,8 @@
 const { ApolloServer, gql } = require('apollo-server');
 
-const databaseInstance = require('datasources/database')
-const ResolversBuilder = require('resolvers_builder')
-const { typeDefs } = require('definitions_builder')
+const databaseInstance = require('database/builder')
+const typeDefs = require('definitions/builder')
+const ResolversBuilder = require('resolvers/builder')
 const env = require('env_vars')
 
 databaseInstance.initialize().then(response => {
