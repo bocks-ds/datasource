@@ -27,12 +27,12 @@ module.exports = {
         supported_tables: ['classes'],
         direct: true
     },
-    effect_range: {
+    effect_ranges: {
         model_name: "EffectRange",
         supported_tables: ['spells'],
         direct: true,
     },
-    magic_school:  {
+    magic_schools:  {
         model_name: "MagicSchool",
         supported_tables: ['spells'],
         direct: true,
