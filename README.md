@@ -36,7 +36,7 @@ Here is an example of the Dockerfile, taken from `sf-datasource`.
 
 ```
 FROM bocks/datasource:0.2.3
-RUN rm /code/json
+RUN rm /code/app/json
 COPY app /code/app
 CMD node /code/index.js
 ```
@@ -159,7 +159,7 @@ See `code/app/config.js` for an example of this file.
 
 Optional Values:
 
-- `debugLevel` - Value 0 sets the lowest verbosity; 4 is highest. `-616` will log full typeDefs and resolvers
+- `debugLevelgit ` - Value 0 sets the lowest verbosity; 4 is highest. `-616` will log full typeDefs and resolvers
 - `port` - Override the default port for the API
 - `preciceDebugLevel` - true/false, limit verbosity to an exact level while ignoring lower levels
 - `subDebugLevels` - Same as `debugLevel`, but overrides subsets within the logs.
