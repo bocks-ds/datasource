@@ -159,7 +159,7 @@ See `code/app/config.js` for an example of this file.
 
 Optional Values:
 
-- `debugLevelgit ` - Value 0 sets the lowest verbosity; 4 is highest. `-616` will log full typeDefs and resolvers
+- `debugLevel ` - Value 0 sets the lowest verbosity; 4 is highest. `-616` will log full typeDefs and resolvers
 - `port` - Override the default port for the API
 - `preciceDebugLevel` - true/false, limit verbosity to an exact level while ignoring lower levels
 - `subDebugLevels` - Same as `debugLevel`, but overrides subsets within the logs.
