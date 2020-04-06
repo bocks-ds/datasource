@@ -5,6 +5,12 @@ const DefinitionsBuilder = require('definitions/builder')
 const ResolversBuilder = require('resolvers/builder')
 const env = require('env_vars')
 
+if (env.deployment == 'prod' && env.sentryDsn) {
+    const Sentry = require('@sentry/node');
+    Sentry.init({ dsn: env.sentryDsn });
+}
+
+
 databaseInstance.initialize().then(_ => {
     const typeDefs = new DefinitionsBuilder().get_type_defs() // must run prior to ResolversBuilder
     const resolvers = new ResolversBuilder()
