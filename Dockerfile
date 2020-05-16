@@ -1,6 +1,13 @@
 FROM node
-RUN npm install apollo-server graphql glob sqlite3 sequelize apollo-datasource @sentry/node@5.15.4
+RUN npm install apollo-datasource \
+    apollo-server \
+    graphql \
+    glob \
+    papaparse \
+    sqlite3 \
+    sequelize \
+    @sentry/node@5.15.4
 COPY code /code
 WORKDIR /code
-CMD node index.js
+ENTRYPOINT [ "node", "index.js" ]
 EXPOSE 80

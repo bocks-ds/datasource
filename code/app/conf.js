@@ -1,5 +1,6 @@
 module.exports = {
     sentryDsn: undefined,
+    dataType: 'tsv',
     deployment: 'dev', // Change this to prod when building image! (This process is due for improvements)
     debugLevel: 0,
     subDebugLevels: {

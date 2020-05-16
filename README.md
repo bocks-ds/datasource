@@ -11,7 +11,7 @@ DataSource is built on [ApolloServer](https://www.apollographql.com/docs/apollo-
 By including this as the base image for a Dockerfile, the rest of the downstream repository needs to only contain three things, and a fourth file for configuration is optional. For our example below, we will place these elements in a directory called `app/`. Details for each of these will be in their own section here below.
 
 **Required:**
-- `json/` - Directory of JSON files to be used in building the SQLite database.
+- `json/`, `csv/`, or `tsv/` - Directory of files to be used in building the SQLite database. See conf var `dataType` for more on this.
 - `associative_tables.js` - Provides a dict of table relationship defintions.
 - `table_singulars.js` - Provides a dict of basic key:value pairs with table names and their singular form.
 
@@ -151,7 +151,7 @@ module.exports = {
 
 ----------
 
-## Optional Configuration - app/config.js
+## Optional Configuration Variables - app/config.js
 
 As mentioned above, a fourth file can optionally be added to your app that controls config options.
 
@@ -159,21 +159,25 @@ See `code/app/config.js` for an example of this file.
 
 Optional Values:
 
+- `dataType` - Specifies the file extension and directory name of data files.
 - `debugLevel ` - Value 0 sets the lowest verbosity; 4 is highest. `-616` will log full typeDefs and resolvers
 - `port` - Override the default port for the API
 - `preciceDebugLevel` - true/false, limit verbosity to an exact level while ignoring lower levels
 - `subDebugLevels` - Same as `debugLevel`, but overrides subsets within the logs.
+- `sentryDsn` - Data Source Name used to connect Sentry.io
 
 Default values are as follows:
 ```
+dataType: 'json',
 debugLevel: 0,
-port: 80
-preciceDebugLevel: false
+port: 80,
+preciceDebugLevel: false,
 subDebugLevels: {
     database: 0,
     definitions: 0,
     resolvers: 0,
 }
+sentryDsn: undefined
 ```
 
 
