@@ -1,4 +1,9 @@
 module.exports = {
+    weapon_categories: {
+        model_name: 'WeaponCategory',
+        supported_tables: ['weapons'],
+        direct: true,
+    },
     spell_descriptors: {
         model_name: "Descriptor",
         junction_target: 'descriptors',

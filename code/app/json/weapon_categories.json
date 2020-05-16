@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Melee",
+    "subtype": "one-handed",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to deal damage is considered a melee weapon. Basic melee weapons can be easily used by almost anyone and generally require no special training. While basic melee weapons deal less damage than more sophisticated weapons of the same item level, they have the advantage of not usually requiring power sources and operating under almost any conditions. Basic melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 2,
+    "name": "Basic Melee",
+    "subtype": "two-handed",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to deal damage is considered a melee weapon. Basic melee weapons can be easily used by almost anyone and generally require no special training. While basic melee weapons deal less damage than more sophisticated weapons of the same item level, they have the advantage of not usually requiring power sources and operating under almost any conditions. Basic melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 3,
+    "name": "Advanced Melee",
+    "subtype": "cryo",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 4,
+    "name": "Advanced Melee",
+    "subtype": "disintegrator",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 5,
+    "name": "Advanced Melee",
+    "subtype": "flame",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 6,
+    "name": "Advanced Melee",
+    "subtype": "plasma",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 7,
+    "name": "Advanced Melee",
+    "subtype": "shock",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 8,
+    "name": "Advanced Melee",
+    "subtype": "sonic",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 9,
+    "name": "Advanced Melee",
+    "subtype": "uncategorized",
+    "hands": 1,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 10,
+    "name": "Advanced Melee",
+    "subtype": "cryo",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 11,
+    "name": "Advanced Melee",
+    "subtype": "flame",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 12,
+    "name": "Advanced Melee",
+    "subtype": "plasma",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 13,
+    "name": "Advanced Melee",
+    "subtype": "shock",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 14,
+    "name": "Advanced Melee",
+    "subtype": "sonic",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 15,
+    "name": "Advanced Melee",
+    "subtype": "uncategorized",
+    "hands": 2,
+    "description": "<p>Any handheld weapon that must touch a target to damage it is considered a melee weapon. Advanced melee weapons require a degree of training and skill to use properly. Advanced melee weapons are divided into one-handed and two-handed weapons.</p>"
+  },
+  {
+    "id": 16,
+    "name": "Small Arms",
+    "subtype": "cryo",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 17,
+    "name": "Small Arms",
+    "subtype": "dimensional disruption",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 18,
+    "name": "Small Arms",
+    "subtype": "disintegrator",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 19,
+    "name": "Small Arms",
+    "subtype": "flame",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 20,
+    "name": "Small Arms",
+    "subtype": "plasma",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 21,
+    "name": "Small Arms",
+    "subtype": "laser",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 22,
+    "name": "Small Arms",
+    "subtype": "projectile",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 23,
+    "name": "Small Arms",
+    "subtype": "shock",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 24,
+    "name": "Small Arms",
+    "subtype": "sonic",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 25,
+    "name": "Small Arms",
+    "subtype": "uncategorized",
+    "hands": 1,
+    "description": "<p>Small arms are handheld ranged weapons that can be held and operated with one hand. Various pistols are the most common type, though many types of small arms exist. Small arms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 26,
+    "name": "Longarms",
+    "subtype": "cryo",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 27,
+    "name": "Longarms",
+    "subtype": "dimensional disruption",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 28,
+    "name": "Longarms",
+    "subtype": "disintegrator",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 29,
+    "name": "Longarms",
+    "subtype": "flame",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 30,
+    "name": "Longarms",
+    "subtype": "laser",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 31,
+    "name": "Longarms",
+    "subtype": "plasma",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 32,
+    "name": "Longarms",
+    "subtype": "projectile",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 33,
+    "name": "Longarms",
+    "subtype": "shock",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 34,
+    "name": "Longarms",
+    "subtype": "sonic",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 35,
+    "name": "Longarms",
+    "subtype": "uncategorized",
+    "hands": 2,
+    "description": "<p>Longarms are handheld, long-ranged weapons that must be held and operated with two hands. Various rifles are the most common type, though many types of longarms exist. Some longarms support automatic fire as well. Longarms require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 36,
+    "name": "Heavy Weapons",
+    "subtype": "cryo",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 37,
+    "name": "Heavy Weapons",
+    "subtype": "disintegrator",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 38,
+    "name": "Heavy Weapons",
+    "subtype": "flame",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 39,
+    "name": "Heavy Weapons",
+    "subtype": "laser",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 40,
+    "name": "Heavy Weapons",
+    "subtype": "plasma",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 41,
+    "name": "Heavy Weapons",
+    "subtype": "projectile",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 42,
+    "name": "Heavy Weapons",
+    "subtype": "shock",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 43,
+    "name": "Heavy Weapons",
+    "subtype": "sonic",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 44,
+    "name": "Heavy Weapons",
+    "subtype": "uncategorized",
+    "hands": 2,
+    "description": "<p>Heavy weapons are military-grade, high-damage weapons that require specialized training to use. Heavy weapons are difficult to hold steadily and aim accurately, and they thus require a minimum Strength score to use to their full potential. Heavy weapons must be held and operated with two hands, and they require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 45,
+    "name": "Snipers",
+    "subtype": "flame",
+    "hands": 2,
+    "description": "<p>Sniper weapons are handheld, long-ranged weapons that must be held and operated with two hands. They are similar to long arms, but they are designed to emphasize range and accuracy, even if this requires some sacrifice in damage potential. Sniper weapons require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 46,
+    "name": "Snipers",
+    "subtype": "laser",
+    "hands": 2,
+    "description": "<p>Sniper weapons are handheld, long-ranged weapons that must be held and operated with two hands. They are similar to long arms, but they are designed to emphasize range and accuracy, even if this requires some sacrifice in damage potential. Sniper weapons require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 47,
+    "name": "Snipers",
+    "subtype": "plasma",
+    "hands": 2,
+    "description": "<p>Sniper weapons are handheld, long-ranged weapons that must be held and operated with two hands. They are similar to long arms, but they are designed to emphasize range and accuracy, even if this requires some sacrifice in damage potential. Sniper weapons require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 48,
+    "name": "Snipers",
+    "subtype": "projectile",
+    "hands": 2,
+    "description": "<p>Sniper weapons are handheld, long-ranged weapons that must be held and operated with two hands. They are similar to long arms, but they are designed to emphasize range and accuracy, even if this requires some sacrifice in damage potential. Sniper weapons require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 49,
+    "name": "Snipers",
+    "subtype": "uncategorized",
+    "hands": 2,
+    "description": "<p>Sniper weapons are handheld, long-ranged weapons that must be held and operated with two hands. They are similar to long arms, but they are designed to emphasize range and accuracy, even if this requires some sacrifice in damage potential. Sniper weapons require a battery or ammunition of the proper size and type to function.</p>"
+  },
+  {
+    "id": 50,
+    "name": "Special",
+    "subtype": "uncategorized",
+    "hands": 1,
+    "description": "<p></p>"
+  },
+  {
+    "id": 51,
+    "name": "Special",
+    "subtype": "uncategorized",
+    "hands": 2,
+    "description": "<p></p>"
+  },
+  {
+    "id": 52,
+    "name": "Grenades",
+    "subtype": "uncategorized",
+    "hands": 1,
+    "description": "<p>Grenades are thrown weapons that detonate in an explosive radius when they reach the target. A grenade’s listing below shows its explosion radius. Some grenades have additional effects, such as blinded or entangled, that apply only to creatures in the explosion radius that fail a Reflex save against the grenade. The DC of the save is equal to 10 + half the grenade’s item level + your Dexterity modifier. Any penalty you take to your attack roll also applies to this save DC.</p>"
+  }
+]
