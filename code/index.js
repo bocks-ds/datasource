@@ -24,8 +24,10 @@ databaseInstance.initialize().then(_ => {
 
     server.listen({ port: env.port }).then(({ url }) => {
         env.logger.info(`🚀  Apollo Server ready at ${url}.`);
-    });
+    }).catch(error => {
+        env.logger.error(error.message)
+    })
 }).catch(error => {
-    env.logger.info("Error:", error.message.split('\n\n').join(' | '))
-    env.logger.info("Please review your definitions and resolvers using debug level '-616'")
+    env.logger.error(error.message.split('\n\n').join(' | '))
+    throw error
 })

@@ -20,6 +20,21 @@ By including this as the base image for a Dockerfile, the rest of the downstream
 
 ----------
 
+## Debugging
+
+Various debug levels are available, and feature granular control through the variables `debugLevel` and `subDebugLevels`. See "Optional Configuration Variables" in this readme for more about those vars. Setting `precise: true` in your configuration will allow you to view one debug level while ignoring any lower level items that would normally be included.
+
+### Available Debug Levels
+
+0. Always prints to console. Contains basic initialization status and any errors encountered.
+1. Increases information about the progress of initialization status. Also enables logging on all GraphQL queries.
+2. Presents basic information about the result of initialization steps, such as names of data-files read or tables and relationships created.
+3. Increases information about result of initialization steps to include all information pertaining to table and relationship data, definitions, and resolvers.
+4. Adds information about table column types and query keys.
+5. This level presents the most detailed error logging information, potentially including exact data contents.
+
+----------
+
 ## Running the Provided Example
 
 On its own, this image runs with a subset of data pulled from _sf-datasource_- but that data should be overwritten at runtime by the downstream Dockerfile. 
