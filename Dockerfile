@@ -6,8 +6,9 @@ RUN npm install apollo-datasource \
     papaparse \
     sqlite3 \
     sequelize \
-    @sentry/node@5.15.4
+    @sentry/node@5.15.4 \
+    uuid
 COPY code /code
 WORKDIR /code
-ENTRYPOINT [ "node", "index.js" ]
 EXPOSE 80
+ENTRYPOINT [ "node", "index.js" ]

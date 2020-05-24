@@ -18,6 +18,26 @@ By including this as the base image for a Dockerfile, the rest of the downstream
 **Optional:**
 - `conf.js` - Overwrite app configuration elements such as port and debug levels.
 
+### Associative / Relational Tables
+
+Tables that are associated with one another should have their relationship defined in `app/associative_tables.js`.
+
+The file structure is simple, with a single dict being exported. This object should contain one entry for each relationship. The key will be the name of the relational table, and it's value will be an object that will hold information about how it relates to other tables.
+
+Example:
+
+```
+module.exports = {
+    table_one: {...},
+    table_two: {...}
+}
+```
+
+Two values are required for every relational table description: `model_name` and `supports`.
+
+- `model_name` - String value containing the singular name for each object in this table. _Example: **class_features** would have a model_name of **ClassFeature**_
+- `supports`
+
 ----------
 
 ## Debugging
@@ -96,7 +116,7 @@ Here is how we will tell our DataSource app about this association:
 module.exports = {
     class_features: {
         model_name: "ClassFeature",
-        supported_tables: ['classes'],
+        supports: ['classes'],
     },
     ...
 }
@@ -114,7 +134,7 @@ Here is how we will tell our DataSource app about this association:
 module.exports = {
     effect_ranges: {
         model_name: "EffectRange",
-        supported_tables: ['spells'],
+        supports: ['spells'],
         direct: true,
     },
     ...
@@ -134,7 +154,7 @@ module.exports = {
     spell_descriptors: {
         model_name: "Descriptor",
         junction_target: 'descriptors',
-        supported_tables: ['spells'],
+        supports: ['spells'],
     },
     ...
 }
@@ -144,7 +164,7 @@ As you can see, this uses the additional value `junction_target`, which tells Da
 
 Similar to indirect associations, this relationship results in a `Descriptor` object being nested within `spells`
 
-Unlike our other relationship associations, this entry should have only one value for `supported_tables` (it remains a list simply for the sake of type consistency).
+Unlike our other relationship associations, this entry should have only one value for `supports` (it remains a list simply for the sake of type consistency).
 
 _Note: If `junction_target` is provided, `direct: true` will be ignored._
 
