@@ -12,6 +12,7 @@ if (env.deployment == 'prod' && env.sentryDsn) {
 
 
 databaseInstance.initialize().then(_ => {
+    // Try to put these together into a single import: {typeDefs, resolvers}
     const typeDefs = new DefinitionsBuilder().get_type_defs() // must run prior to ResolversBuilder
     const resolvers = new ResolversBuilder()
 
