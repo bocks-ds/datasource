@@ -2,22 +2,25 @@ module.exports = {
     weapon_categories: {
         model_name: 'WeaponCategory',
         supports: 'weapons',
-        direct: true,
+        relationshipType: 'ManyToOne',
     },
     spell_descriptors: {
         model_name: "Descriptor",
-        junction_target: 'descriptors',
+        joins_to: 'descriptors',
         supports: 'spells',
+        relationshipType: "ManyToMany",
     },
     theme_modifiers: {
         model_name: "Modifier",
-        junction_target: 'modifiers',
+        joins_to: 'modifiers',
         supports: 'themes',
+        relationshipType: "ManyToMany",
     },
     class_proficiencies: {
         model_name: "Feat",
-        junction_target: 'feats',
+        joins_to: 'feats',
         supports: 'classes',
+        relationshipType: "ManyToMany",
     },
     class_features: {
         model_name: "ClassFeature",
@@ -30,16 +33,16 @@ module.exports = {
     abilities: {
         model_name: "Ability",
         supports: 'classes',
-        direct: true
+        relationshipType: 'ManyToOne',
     },
     effect_ranges: {
         model_name: "EffectRange",
         supports: 'spells',
-        direct: true,
+        relationshipType: 'ManyToOne',
     },
     magic_schools:  {
         model_name: "MagicSchool",
         supports: 'spells',
-        direct: true,
+        relationshipType: 'ManyToOne',
     },
 }
