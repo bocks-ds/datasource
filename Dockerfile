@@ -7,7 +7,8 @@ RUN npm install apollo-datasource \
     sqlite3 \
     sequelize \
     @sentry/node@5.15.4 \
-    uuid
+    uuid \
+    winston
 COPY code /code
 WORKDIR /code
 EXPOSE 80
