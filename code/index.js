@@ -4,10 +4,9 @@ const databaseInstance = require('database/builder')
 const DefinitionsBuilder = require('definitions/builder')
 const ResolversBuilder = require('resolvers/builder')
 const env = require('env_vars')
-const LoggerInstance = require('winston_logger')
+const {newLogger} = require('winston_logger')
 
-
-LOGGER = new LoggerInstance('core')
+const LOGGER = newLogger('core')
 
 if (env.isProduction && env.sentryDsn) {
     const Sentry = require('@sentry/node');
