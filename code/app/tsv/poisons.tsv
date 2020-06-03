@@ -1,0 +1,19 @@
+name	level	price	dose	type	fort_save	track	onset	frequency	cure	source	source_page
+Amblaree	2	175	1	poison (injury)	13	Wisdom (special)	null	null	1 save	COM	127
+Id moss	2	175	1	poison (ingested)	14	Intelligence	10 minutes	null	1 save	CRB	232
+Turbocurarine	3	260	1	poison (injury)	14	Dexterity (special)	null	null	1 save	COM	127
+Biocide	4	340	1	poison (injury)	11	Constitution	null	null	2 saves	COM	127
+Insanity mist	4	4000	1	poison (inhaled)	15	Wisdom	null	null	1 save	CRB	232
+Cyanide	6	600	1	poison (contact)	16	Constitution	1 minute	null	2 consecutive saves	ARM	133
+Arsenic	7	1400	1	poison (ingested)	17	Constitution	10 minutes	null	1 save	ARM	133
+Mindhaze	7	1000	1	poison (injury)	17	Wisdom	null	null	1 save	ARM	133
+Blue whinnis	8	1400	1	poison (injury)	14	Constitution (special)	null	null	1 save	CRB	232
+Green lotus extract	8	1500	1	poison (contact)	18	Charisma (special)	1 minute	null	1 save	CRB	232
+Ungol dust	9	12500	1	poison (inhaled)	15	Charisma	null	null	1 save	CRB	232
+Circuit melter	12	8000	1	poison (injury)	19	Strength	null	null	2 consecutive saves	ARM	133
+Hydrofluoric Acid	14	10500	1	poison (contact)	20	Constitution	1 minute	null	2 consecutive saves	COM	127
+Radium	14	29800	1	poison (ingested)	18	Constitution	1 day	null	2 consecutive saves	ARM	133
+Docilant	15	20250	1	poison (injury)	21	Charisma	null	null	2 consecutive saves	ARM	133
+Strychnine	18	188000	1	poison (injury)	20	Dexterity (special)	null	null	2 consecutive saves	ARM	133
+Black lotus extract	20	140000	1	poison (contact)	20	Constitution (special)	1 minute	null	2 consecutive saves	CRB	232
+Deathblade	20	132500	1	poison (injury)	20	Constitution	null	null	2 consecutive saves	CRB	232
