@@ -1,12 +1,7 @@
 module.exports = {
-    "abilities": "Ability",
-    "class_features": "ClassFeature",
-    "class_special_skills": "ClassSpecialSkill",
-    "classes": "Class",
-    "descriptors": "Descriptor",
+    "companions": "Companion",
     "feats": "Feat",
-    "modifiers": "Modifier",
-    "spells": "Spell",
-    "themes": "Theme",
+    "goods_and_services": "GoodOrService",
+    "poisons": "Poison",
     "weapons": "Weapon"
 }
